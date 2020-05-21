@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0 auto;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Playfair Display", sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 18px;
+    background: #ffffff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 900px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
